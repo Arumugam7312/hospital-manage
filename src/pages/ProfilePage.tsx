@@ -211,7 +211,7 @@ export function ProfilePage() {
               {/* Header Section */}
               <div className="relative h-48 rounded-3xl bg-gradient-to-r from-primary to-indigo-600 overflow-hidden shadow-2xl shadow-primary/20">
                 <div className="absolute inset-0 bg-black/10" />
-                <div className="absolute -bottom-12 left-8 flex items-end gap-6">
+                <div className="absolute bottom-5 left-8 flex items-end gap-6">
                   <div className="relative group">
                     <img 
                       src={user?.avatar || `https://ui-avatars.com/api/?name=${user?.name}&background=random`} 
